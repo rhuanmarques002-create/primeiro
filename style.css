@@ -20,6 +20,24 @@ body {
   color: #f8f9fa !important;
 }
 
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.logo-mark {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: radial-gradient(circle at top left, #ffe066, #ffc107 70%);
+  box-shadow: 0 0 0 4px rgba(255, 193, 7, 0.18);
+}
+
 .nav-link.active,
 .nav-link:hover {
   color: #ffc107 !important;
